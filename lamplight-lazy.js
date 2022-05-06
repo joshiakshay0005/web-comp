@@ -12,7 +12,7 @@ class LamplightLazy extends HTMLElement {
           border: 2px solid #ffc60d !important;
         }
       </style>
-      This is a lazy loaded Web Component. Thanks for reading!
+      This is a Web Component!
     `;
   }
 }
