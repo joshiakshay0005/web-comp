@@ -3,7 +3,7 @@ class LamplightLazy extends HTMLElement {
     super();
   }
   connectedCallback() {
-    this.shadowRoot.innerHTML = `
+    this.innerHTML = `
       <style>
         :host {
           display: block;
