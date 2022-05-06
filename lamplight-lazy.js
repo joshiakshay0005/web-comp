@@ -3,16 +3,7 @@ class LamplightLazy extends HTMLElement {
     super();
   }
   connectedCallback() {
-    this.innerHTML = `
-      <style>
-        :host {
-          display: block;
-          padding: 1rem;
-          border: 2px solid #ffc60d !important;
-        }
-      </style>
-      This is a Web Component
-    `;
+    this.innerHTML = `<div class="border padding-all-2">This is a Web Component</div>`;
   }
 }
 customElements.define('lamplight-lazy', LamplightLazy);
